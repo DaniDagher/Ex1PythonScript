@@ -3,7 +3,7 @@ import socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Connect the socket to the port where the server is listening
-
+# hi
 
 def connectto(host, port=6653):
     server_address = (host, port)
